@@ -40,7 +40,8 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- Start GraphQL -->
+		<!-- Start GraphQL dependency -->
+<!-- 		https://github.com/graphql-java/graphql-spring-boot -->
 		<dependency>
 			<groupId>com.graphql-java</groupId>
 			<artifactId>graphql-spring-boot-starter</artifactId>

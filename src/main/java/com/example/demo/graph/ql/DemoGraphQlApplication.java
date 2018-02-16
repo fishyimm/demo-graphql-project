@@ -29,6 +29,12 @@ import graphql.servlet.GraphQLErrorHandler;
 @SpringBootApplication
 public class DemoGraphQlApplication {
 
+//	https://www.pluralsight.com/guides/java-and-j2ee/building-a-graphql-server-with-spring-boot
+//	https://github.com/graphql-java/graphql-spring-boot
+//	https://github.com/graphql-java/graphql-java-tools
+	
+//	http://localhost:9000/graphql/schema.json
+//	http://localhost:9000/graphiql
 	public static void main(String[] args) {
 		SpringApplication.run(DemoGraphQlApplication.class, args);
 	}
