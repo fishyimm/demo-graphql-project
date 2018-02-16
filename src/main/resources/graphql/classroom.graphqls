@@ -1,0 +1,13 @@
+type Classroom { 
+	id: ID! 
+	title: String!
+} 
+
+extend type Query { 
+	findAllClassrooms: [Classroom]! 
+	countClassrooms: Long! 
+} 
+
+extend type Mutation { 
+	newClassroom(title: String!) : Classroom!
+}
